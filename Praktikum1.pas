@@ -7,12 +7,11 @@ uses
   Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Imaging.jpeg;
 
 type
-  TForm1 = class(TForm)
-    Label1: TLabel;
+  Tlatihan1_1 = class(TForm)
     p: TPanel;
     Edit1: TEdit;
     Button1: TButton;
-    Image1: TImage;
+    Label1: TLabel;
     procedure pClick(Sender: TObject);
   private
     { Private declarations }
@@ -21,7 +20,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  latihan1_1: Tlatihan1_1;
 
 implementation
 
@@ -29,9 +28,9 @@ implementation
 
 
 
-procedure TForm1.pClick(Sender: TObject);
+procedure Tlatihan1_1.pClick(Sender: TObject);
 begin
-p.Caption:= 'Halo selamat datang ' + edit1.Text + ',S.Kom.';
+p.Caption:= 'Halo selamat datang ' + edit1.Text;
 end;
 
 end.

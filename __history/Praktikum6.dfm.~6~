@@ -1,0 +1,85 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Nilai Kehadiran'
+  ClientHeight = 368
+  ClientWidth = 380
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 80
+    Top = 24
+    Width = 206
+    Height = 19
+    Caption = 'CEK NILAI BOBOT SISWA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 72
+    Width = 70
+    Height = 13
+    Caption = 'Nilai Kehadiran'
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 104
+    Width = 51
+    Height = 13
+    Caption = 'Nilai Tugas'
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 136
+    Width = 41
+    Height = 13
+    Caption = 'Nilai UTS'
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 168
+    Width = 53
+    Height = 13
+    Caption = 'Nilai Harian'
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 200
+    Width = 42
+    Height = 13
+    Caption = 'Nilai UAS'
+  end
+  object Label7: TLabel
+    Left = 23
+    Top = 261
+    Width = 32
+    Height = 13
+    Caption = 'TOTAL'
+  end
+  object Label8: TLabel
+    Left = 23
+    Top = 293
+    Width = 34
+    Height = 13
+    Caption = 'GRADE'
+  end
+  object Label9: TLabel
+    Left = 23
+    Top = 328
+    Width = 18
+    Height = 13
+    Caption = 'KET'
+  end
+end

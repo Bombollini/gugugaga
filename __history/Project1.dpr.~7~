@@ -1,0 +1,46 @@
+program Project1;
+
+uses
+  Forms,
+  Praktikum1 in 'Praktikum1.pas' {latihan1_1},
+  Praktikum2 in 'Praktikum2.pas' {latihan1_5},
+  Vcl.Themes,
+  Vcl.Styles,
+  Praktikum3 in 'Praktikum3.pas' {Form3},
+  Praktikum4 in 'Praktikum4.pas' {Form4},
+  Praktikum5 in 'Praktikum5.pas' {Form5},
+  Praktikum6 in 'Praktikum6.pas' {Form6},
+  Praktikum7 in 'Praktikum7.pas' {Form7},
+  Praktikum8 in 'Praktikum8.pas' {Form8},
+  Praktikum9 in 'Praktikum9.pas' {Form9},
+  Praktikum10 in 'Praktikum10.pas' {Form10},
+  Praktikum11 in 'Praktikum11.pas' {Form11},
+  Praktikum12 in 'Praktikum12.pas' {Form12},
+  Mainmenu in 'Mainmenu.pas' {Form13},
+  Praktikum1_3 in 'Praktikum1_3.pas' {latihan1_3a},
+  praktikum1_4 in 'praktikum1_4.pas' {latihan1_3b},
+  Praktikum1_4a in 'Praktikum1_4a.pas' {latihan1_4};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  TStyleManager.TrySetStyle('Glossy');
+  Application.CreateForm(TForm13, Form13);
+  Application.CreateForm(TForm12, Form12);
+  Application.CreateForm(TForm11, Form11);
+  Application.CreateForm(TForm9, Form9);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(Tlatihan1_5, latihan1_5);
+  Application.CreateForm(Tlatihan1_1, latihan1_1);
+  Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(Tlatihan1_3a, latihan1_3a);
+  Application.CreateForm(Tlatihan1_3b, latihan1_3b);
+  Application.CreateForm(Tlatihan1_4, latihan1_4);
+  Application.Run;
+end.

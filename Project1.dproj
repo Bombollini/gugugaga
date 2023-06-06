@@ -142,10 +142,66 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="Praktikum1.pas">
-            <Form>Form1</Form>
+            <Form>latihan1_1</Form>
         </DCCReference>
         <DCCReference Include="Praktikum2.pas">
-            <Form>Form2</Form>
+            <Form>latihan1_5</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum3.pas">
+            <Form>latihan2_1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum4.pas">
+            <Form>latihan2_2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum5.pas">
+            <Form>latihan2_3</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum6.pas">
+            <Form>latihan2_4</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum7.pas">
+            <Form>contoh1_21</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum8.pas">
+            <Form>latihan1_21</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum9.pas">
+            <Form>latihan2_32</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum10.pas">
+            <Form>Form10</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum11.pas">
+            <Form>latihan3_22</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum12.pas">
+            <Form>latihan4_33</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Mainmenu.pas">
+            <Form>Form13</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum1_3.pas">
+            <Form>latihan1_3a</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="praktikum1_4.pas">
+            <Form>latihan1_3b</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Praktikum1_4a.pas">
+            <Form>latihan1_4</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Debug">

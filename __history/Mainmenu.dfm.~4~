@@ -1,0 +1,45 @@
+object Form13: TForm13
+  Left = 0
+  Top = 0
+  Caption = 'Form13'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 8
+    object Latihan1: TMenuItem
+      Caption = 'MODUL 1.1'
+      object LATIHAN21: TMenuItem
+        Caption = 'LATIHAN 2'
+        OnClick = LATIHAN21Click
+      end
+      object LATIHAN31: TMenuItem
+        Caption = 'LATIHAN 3a'
+        OnClick = LATIHAN31Click
+      end
+      object Latihan3b1: TMenuItem
+        Caption = 'LATIHAN 3b'
+      end
+      object LATIHAN41: TMenuItem
+        Caption = 'LATIHAN 4'
+        OnClick = LATIHAN41Click
+      end
+      object LATIHAN51: TMenuItem
+        Caption = 'LATIHAN 5'
+        OnClick = LATIHAN51Click
+      end
+    end
+    object MODUL121: TMenuItem
+      Caption = 'MODUL 1.2'
+    end
+  end
+end

@@ -1,0 +1,65 @@
+unit Mainmenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TForm13 = class(TForm)
+    MainMenu1: TMainMenu;
+    Latihan1: TMenuItem;
+    LATIHAN21: TMenuItem;
+    LATIHAN31: TMenuItem;
+    LATIHAN41: TMenuItem;
+    LATIHAN51: TMenuItem;
+    MODUL121: TMenuItem;
+    Latihan3b1: TMenuItem;
+    procedure LATIHAN21Click(Sender: TObject);
+    procedure LATIHAN31Click(Sender: TObject);
+    procedure LATIHAN41Click(Sender: TObject);
+    procedure LATIHAN51Click(Sender: TObject);
+    procedure Latihan3b1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form13: TForm13;
+
+implementation
+
+{$R *.dfm}
+
+uses Praktikum1, Praktikum2, Praktikum3, Praktikum4, Praktikum5, Praktikum1_3,
+  praktikum1_4;
+
+procedure TForm13.LATIHAN21Click(Sender: TObject);
+begin
+latihan1_1.show;
+end;
+
+procedure TForm13.LATIHAN31Click(Sender: TObject);
+begin
+latihan1_3a.show;
+end;
+
+procedure TForm13.Latihan3b1Click(Sender: TObject);
+begin
+latihan1_4.show;
+end;
+
+procedure TForm13.LATIHAN41Click(Sender: TObject);
+begin
+form4.show;
+end;
+
+procedure TForm13.LATIHAN51Click(Sender: TObject);
+begin
+latihan1_5.show;
+end;
+
+end.

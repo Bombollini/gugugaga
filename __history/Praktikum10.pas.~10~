@@ -1,0 +1,56 @@
+unit Praktikum10;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, VclTee.TeeGDIPlus, Vcl.StdCtrls,
+  VCLTee.TeEngine, Vcl.ExtCtrls, VCLTee.TeeProcs, VCLTee.Chart, Vcl.Grids,
+  Vcl.DBCtrls;
+
+type
+  TForm10 = class(TForm)
+    Chart1: TChart;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    cb1: TDBComboBox;
+    cb2: TDBComboBox;
+    ejt: TEdit;
+    StringGrid1: TStringGrid;
+    Button1: TButton;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form10: TForm10;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm10.Button1Click(Sender: TObject);
+begin
+StringGrid1.RowCount := StringGrid1.RowCount+1;
+StringGrid1.Cells[0,StringGrid1.RowCount -1] :=
+IntToStr(StringGrid1.RowCount -1);
+StringGrid1.Cells[1,StringGrid1.RowCount -1] := ejt.Text;
+StringGrid1.Cells[2,StringGrid1.RowCount -1] := cb2.Text;
+StringGrid1.Cells[3,StringGrid1.RowCount -1] := cb1.Text;end;
+
+procedure TForm10.Button3Click(Sender: TObject);
+begin
+StringGrid1.RowCount := StringGrid1.RowCount+1;
+StringGrid1.Cells[0,StringGrid1.RowCount -1] :=
+IntToStr(StringGrid1.RowCount -1);
+StringGrid1.Cells[1,StringGrid1.RowCount -1] := ejt.Text;
+StringGrid1.Cells[2,StringGrid1.RowCount -1] := cb2.Text;
+StringGrid1.Cells[3,StringGrid1.RowCount -1] := cb1.Text;end;
+
+end.

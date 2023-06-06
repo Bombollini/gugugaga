@@ -1,0 +1,46 @@
+unit Praktikum7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.StdCtrls;
+
+type
+  TForm7 = class(TForm)
+    Label1: TLabel;
+    ejp: TEdit;
+    Button1: TButton;
+    StringGrid1: TStringGrid;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm7.FormCreate(Sender: TObject);
+begin
+begin
+StringGrid1.ColCount:=5;
+StringGrid1.ColWidths[0]:=30;
+StringGrid1.ColWidths[1]:=30;
+StringGrid1.ColWidths[2]:=50;
+StringGrid1.ColWidths[3]:=80;
+StringGrid1.ColWidths[4]:=90;
+StringGrid1.Cells[0,0]:='No';
+StringGrid1.Cells[1,0]:='i';
+StringGrid1.Cells[2,0]:='i*i';
+StringGrid1.Cells[3,0]:='i*i*i';
+StringGrid1.Cells[4,0]:='1/i';
+end;
+end;
+
+end.
